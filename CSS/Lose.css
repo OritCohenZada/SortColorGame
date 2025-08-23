@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+
+img{
+    width: 1000px;
+     height: 700px;
+      margin-left: 280px;
+     margin-top: -150px;
+}
+
+#newgame {
+    background-color: white;
+     color: black; 
+     border: none; 
+     border-radius: 25px; 
+     padding: 30px 15px; 
+     font-size: 20px; 
+     cursor: pointer; 
+     margin-left: 1460px;
+     margin-bottom: -175px;
+     margin-top: 25px;
+     transform: translateY(-50%);
+     writing-mode: vertical-rl; 
+     transform: rotate(180deg);
+     position: relative; 
+   
+  
+ }
+
+ @media screen and (min-width: 1900px) {
+
+    img{
+          margin-left: 600px;
+         margin-top: -100px;
+    }
+
+
+    #newgame {
+         margin-left: 1760px;
+ 
+ }
+ }

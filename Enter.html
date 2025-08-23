@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="icon" href="./תמונות/אייקון.ico" type="image/x-icon">
+   
+</head >
+<body align="center">
+  
+
+<button onclick="document.getElementById('divlogin').style.display='block'" style="width:auto;">Log in</button>
+<div id="divlogin" class="modal">
+  
+  <form class="modal-content animate" id="form1" >
+    <div class="img">
+      <span onclick="document.getElementById('divlogin').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="./תמונות/logo.png" alt="logo" id="logo">
+    </div>
+
+      <label >Name</label>
+      <input type="text" placeholder="Enter name" name="name" id="name" required>
+      <label >Email</label>
+      <input type="email" placeholder="Enter email" name="email" id="email" required>
+      <div id="chekp">
+      <label >Password</label>
+      <input type="password" placeholder="Enter password" name="psw" id="password" required>
+    </div> 
+      <button type="submit" id="login">Log In</button>
+    
+    
+
+  </form>
+</div>
+
+<div id="divsignup" class="modal" >
+  <form class="modal-content animate"  id="form2">
+    <div class="img">
+      <span onclick="document.getElementById('divsignup').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="./תמונות/logo.png" alt="logo" id="logo">
+    </div>
+      <div id="chekn">
+      <label >Name</label>
+      <input type="text" placeholder="Enter name" name="name" id="name2" required>
+    </div>
+
+      <label >Email</label>
+      <input type="email" placeholder="Enter email" name="email" id="email2" required>
+        
+      <button type="submit" id="signup">Sign Up</button>
+      
+    
+
+  </form>
+</div>
+
+
+      <link rel="stylesheet" href="./CSS/Enter.css"> 
+      <script src="./JS/Enter.js"></script> 
+</body>
+</html>

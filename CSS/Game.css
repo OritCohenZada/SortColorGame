@@ -1,0 +1,252 @@
+body{
+    background-color: #000000;
+}
+
+.table{
+    height: 500px;
+    width: 100px;
+  border-right: 10px solid white;
+  border-left: 10px solid white;
+  border-bottom: 10px solid white;
+}
+
+td{
+    width: 220%;
+}
+
+.close{
+      border-top: 40px solid rgb(201, 154, 92); 
+
+}
+#timer{
+    color:white;
+    text-align: center;
+    font-size: 150px;
+    margin-top: 0px;
+    margin-left: -1100px;
+    font-family: "Bauhaus 93";
+  }
+
+  #newgame {
+   background-color: white;
+    color: black; 
+    border: none; 
+    border-radius: 25px; 
+    padding: 30px 15px; 
+    font-size: 20px; 
+    cursor: pointer; 
+    margin-left: 1460px;
+    margin-bottom: -175px;
+    margin-top: 25px;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl; 
+    transform: rotate(180deg);
+    position: relative; 
+    z-index: 9;
+ 
+}
+
+
+
+
+#life{
+    position: relative;
+    margin-left: 1350px;
+    margin-top: 95px;
+    margin-bottom: -350px;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    font-size: 50px;
+    z-index: 0;
+    
+   
+    
+}
+
+
+
+#table1{
+    position: relative;
+    margin-top: -25px;
+    margin-left: 15px;
+    
+}
+
+#table2{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 175px;
+}
+
+#table3{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 330px;
+
+}
+
+#table4{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 485px;
+
+}
+
+#table5{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 640px;
+ 
+}
+
+#table6{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 795px;
+
+}
+
+#table7{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 950px;
+
+}
+
+#table8{
+    position: relative;
+    margin-top: -500px;
+    margin-left:1105px;
+
+}
+
+#table9{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 1260px;
+
+}
+
+#table10{
+    position: relative;
+    margin-top: -500px;
+    margin-left: 1410px;
+
+}
+
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+   margin-top: 120px;
+   margin-left: 250px;
+    width: 1000px; 
+    height: 550px; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    border:3px solid white; 
+    cursor: pointer;
+    font-family: "Chiller";
+    font-size: larger;
+   
+  }
+
+  .modal2 {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+   margin-top: -160px;
+   margin-left: 250px;
+    width: 1000px; 
+    height: 550px; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    border:3px solid white; 
+    cursor: pointer;
+    font-family: "Chiller";
+    font-size: larger;
+  }
+  
+  #logo{
+    position: relative;
+   margin-left: 240px;
+   width: 500px;
+  }
+#logor{
+    position: relative;
+    margin-top: -30px;
+    width: 600px;
+}
+  .close2 {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  p{
+    color: white;
+    font-size: larger;
+    padding: 50px;
+   
+  }
+
+
+  @media screen and (min-width: 1900px) {
+    .modal { 
+       margin-top: 180px;
+       margin-left: 450px;
+        width: 1000px; 
+        height: 550px;  
+        cursor: pointer;
+      }
+    
+      .modal2 { 
+       margin-top: -190px;
+       margin-left: 445px;
+        width: 1000px; 
+        height: 580px; 
+        cursor: pointer;
+       
+      }
+
+
+#tables{
+    margin-top: 30px;
+    margin-left: 180px;
+    
+}
+
+#timer{
+    color:white;
+    text-align: center;
+    font-size: 170px;
+    margin-top: 20px;
+    margin-left: -1100px;
+    font-family: "Bauhaus 93";
+  }
+
+  #newgame {
+    margin-left: 1640px;
+    margin-bottom: -195px;
+    margin-top: 100px; 
+ 
+}
+
+#life{
+    margin-left: 1500px;
+    margin-top: 90px;
+    margin-bottom: -400px;
+    font-size: 70px;
+}
+
+}
+
+
+
+
+

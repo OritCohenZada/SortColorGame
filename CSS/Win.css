@@ -1,0 +1,89 @@
+#newgame {
+    background-color: white;
+     color: black; 
+     border: none; 
+     border-radius: 25px; 
+     padding: 30px 15px; 
+     font-size: 20px; 
+     cursor: pointer; 
+     margin-left: 1460px;
+     margin-bottom: -175px;
+     margin-top: 25px;
+     transform: translateY(-50%);
+     writing-mode: vertical-rl; 
+     transform: rotate(180deg);
+     position: relative; 
+     z-index: 9;
+  
+ }
+
+img{
+    width: 900px;
+     height: 700px;
+      margin-left: 300px;
+      margin-top: -100px;
+      transform: scale(0); /* להתחיל מ-0 */
+    animation: grow 1s forwards; /* הפעלת האנימציה */
+}
+
+#img-container {
+    width: 300px; /* רוחב התמונה */
+    height: 300px; /* גובה התמונה */
+    overflow: hidden; /* חבוי תכנים מעבר לגבולות */
+    border-radius: 15px; /* רדיוס לזוויות */
+}
+
+
+
+@keyframes grow {
+    0% {
+        transform: scale(0); /* התחלה מזערית */
+        opacity: 0; /* שקיפות 0 */
+    }
+    100% {
+        transform: scale(1); /* סיום בגודל רגיל */
+        opacity: 1; /* שקיפות 100% */
+    }}
+
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+.confetti {
+    position: absolute;
+    width: 15px;
+    height: 60px;
+
+    color: white;
+    font-size: 30px;
+    opacity: 0.8;
+    pointer-events: none;
+    animation: fall linear forwards, rise linear forwards;
+}
+@keyframes fall {
+    0% {
+        transform: translateY(-10000px); 
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg); 
+    }
+}
+
+
+@media screen and (min-width: 1900px) {
+
+    img{
+          margin-left:500px;
+         margin-top: 0px;
+         padding-bottom: 90px;
+    }
+
+
+    #newgame {
+         margin-left: 1760px;
+ 
+ }
+
+
+ }
